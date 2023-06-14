@@ -1,0 +1,20 @@
+In this paper, we have proposed a fully automated system for COVID-
+19 detection from lung HRCT scans. We also introduced a new dataset
+containing 15,589 images of normal persons and 48,260 images
+belonging to patients with COVID-19. At first, we proposed an image
+processing algorithm to filter the proper images of the patients’ CT
+scans, which show inside the lung perfectly. This algorithm helps increase
+network accuracy and speed. At the next stage, we introduced a
+novel deep convolutional neural network for improving classification.
+This network can be used in many classification problems to improve
+accuracy, especially for the images containing important objects in small
+scales.
+We trained three different deep convolution networks for classifying
+the CT scan images into COVID-19 or normal. Our model, which utilizes
+ResNet50V2, a modified feature pyramid network, and the designed
+architecture, achieved the best results. After training, we used the
+trained networks for running the fully automated COVID-19 identifier
+system. We evaluated our system in two different ways: one on more
+than 7796 images and the other one on almost 245 patients and 41,892
+images with different thicknesses. For single image classification (first
+evaluation way), our model showed 98.49% overall accuracy.
